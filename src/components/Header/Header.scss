@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #EAEAEA;
+  padding: 43px 63px 45px 45px;
+
+  &__logo {
+      width: 40px;
+      height: 40px;
+      margin-right: 17px;
+  }
+
+  &__basket {
+      margin-right: 10px;
+  }
+
+  &__left {
+      display: flex;
+      align-items: center;
+  }
+
+  &__right {
+      display: flex;
+      align-items: center;
+  }
+
+  &__info--title {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+  }
+
+  &__info--desc {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #9D9D9D;
+  }
+
+  &__sum {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      color: #5C5C5C;
+  }
+
+  &__item {
+      margin-right: 30px;
+
+      &:last-child {
+          margin-right: 0;
+      }
+  }
+}
